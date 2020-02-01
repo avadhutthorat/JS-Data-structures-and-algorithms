@@ -1,6 +1,6 @@
 function averagePair(arr, target){
-	if(arr.length === 0 ) return false
-	let i=0;
+  if(arr.length === 0 ) return false
+  let i=0;
   let j= arr.length -1;
   while(i<j){
   	let avg = (arr[i] + arr[j]) / 2
